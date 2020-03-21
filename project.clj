@@ -8,8 +8,8 @@
                   [io.pedestal/pedestal.route "0.5.7"]
                   [io.pedestal/pedestal.jetty "0.5.7"]
                   [org.slf4j/slf4j-simple "1.7.28"]]
-  ; :repositories [["central" "https://maven.aliyun.com/nexus/content/groups/public"]
-  ;                ["clojars" "https://mirrors.tuna.tsinghua.edu.cn/clojars/"]]
+  :repositories [["central" "https://maven.aliyun.com/nexus/content/groups/public"]
+                 ["clojars" "https://mirrors.tuna.tsinghua.edu.cn/clojars/"]]
   :main ^:skip-aot hello-pedestal-with-teamcity.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
